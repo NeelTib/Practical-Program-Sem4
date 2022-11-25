@@ -8,9 +8,6 @@ void main()
     int gdriver = DETECT, gmode;
     initgraph(&gdriver, &gmode, "");
 
-
-
-
     getch();
     closegraph();
 }
