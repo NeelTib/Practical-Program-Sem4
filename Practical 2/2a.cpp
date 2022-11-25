@@ -1,4 +1,4 @@
-// Write a program to divide the entire screen into four equal quadrants.
+// Write a program to divide the entire screen into four equal quadrants and draw circle, rectangle, ellipse & half ellipse in each quadrant also give them appropriate label.
 
 #include <iostream.h>
 #include <conio.h>
@@ -32,6 +32,25 @@ void main()
     // Dividing the screen into four quadrants
     line(midx, 0, midx, ymax);
     line(0, midy, xmax, midy);
+
+    // Circle
+    circle(150, 150, 50);
+    outtextxy(120, 190, "Circle");
+
+    // Ellipse
+    ellipse(500, 350, 0, 360, 100, 50);
+    outtextxy(440, 200, "Ellipse");
+
+    // Half ellipse
+    ellipse(150, 350, 90, 270, 100, 50);
+    outtextxy(100, 420, "Half Ellipse");
+
+    // Rectangle
+    line(400, 300, 600, 300);
+    line(400, 400, 600, 400);
+    line(400, 300, 400, 400);
+    line(600, 300, 600, 400);
+    outtextxy(450, 420, "Rectangle");
 
     getch();
     closegraph();
