@@ -13,7 +13,7 @@ void main()
 
     // Getting the maximum value of x and y
     xmax = getmaxx();
-    ymax = getymaxy();
+    ymax = getmaxy();
 
     // Getting the mid point of x and y
     midx = xmax / 2;
