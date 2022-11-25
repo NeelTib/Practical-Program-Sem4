@@ -13,7 +13,7 @@ void main()
 
     // Getting the maximum value of x and y
     xmax = getmaxx();
-    ymax = getymaxy();
+    ymax = getmaxy();
 
     // Getting the mid point of x and y
     midx = xmax / 2;
@@ -24,7 +24,7 @@ void main()
     putpixel(midx, midy, 8);
 
     // Drawing the box
-    line(0, 0, 0, xmax, 0);
+    line(0, 0, xmax, 0);
     line(0, 0, 0, ymax);
     line(0, ymax, xmax, ymax);
     line(xmax, 0, xmax, ymax);
