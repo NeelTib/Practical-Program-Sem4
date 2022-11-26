@@ -1,4 +1,4 @@
-// Write a program to divide the entire screen into four equal quadrants and draw circle, rectangle, ellipse & half ellipse in each quadrant also give them appropriate label.
+// Write a program in C++ to divide the entire screen into four equal quadrants and draw circle, rectangle, ellipse & half ellipse in each quadrant also give them appropriate label.
 
 #include <iostream.h>
 #include <conio.h>

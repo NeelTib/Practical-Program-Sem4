@@ -1,4 +1,4 @@
-// Write a program to divide the entire screen into four equal quadrants.
+// Write a program in C++ to divide the entire screen into four equal quadrants.
 
 #include <iostream.h>
 #include <conio.h>

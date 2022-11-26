@@ -1,3 +1,4 @@
+// Write a program in C++ to display a Hut.
 #include <iostream.h>
 #include <conio.h>
 #include <graphics.h>
