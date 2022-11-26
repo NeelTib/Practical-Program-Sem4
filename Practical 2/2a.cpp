@@ -35,11 +35,11 @@ void main()
 
     // Circle
     circle(150, 150, 50);
-    outtextxy(120, 190, "Circle");
+    outtextxy(130, 210, "Circle");
 
     // Ellipse
-    ellipse(500, 350, 0, 360, 100, 50);
-    outtextxy(440, 200, "Ellipse");
+    ellipse(480, 150, 0, 360, 100, 50);
+    outtextxy(450, 210, "Ellipse");
 
     // Half ellipse
     ellipse(150, 350, 90, 270, 100, 50);
