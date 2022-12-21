@@ -7,7 +7,7 @@ public class prac2a {
         Scanner sc = new Scanner(System.in);
         long binary1, binary2;
         int i = 0, remainder = 0;
-        int sum[] = new int[0];
+        int sum[] = new int[20];
         System.out.println("Input the first binary number: ");
         binary1 = sc.nextLong();
         System.out.println("Input the second binary number: ");
@@ -15,7 +15,7 @@ public class prac2a {
 
         while (binary1 != 0 || binary2 != 0) {
             sum[i] = (int) (binary1 % 10 + binary2 % 10 + remainder) % 2;
-            sum[i] = (int) (binary1 % 10 + binary2 % 10 + remainder) / 2;
+            remainder = (int) (binary1 % 10 + binary2 % 10 + remainder) / 2;
             binary1 /= 10;
             binary2 /= 10;
             i++;
