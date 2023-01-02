@@ -1,3 +1,4 @@
+
 // WAP to convert Decimal number to Binary number and vice-versa.
 import java.util.Scanner;
 
