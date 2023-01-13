@@ -1,6 +1,4 @@
 // Write a program to add 2 matrices and print the result in matrix. 
-package Practical;
-
 import java.util.Scanner;
 
 public class prac6a {
