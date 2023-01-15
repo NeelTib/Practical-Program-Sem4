@@ -19,7 +19,7 @@ public class prac6b {
 
         int mat1[][] = new int[row1][column1];
         int mat2[][] = new int[row2][column2];
-        int mat3[][] = new int[row2][column2];
+        int mat3[][] = new int[row1][column2];
 
         // Taking the matrix 1 as input
         System.out.println("Input a " + row1 + "x" + column1 + " matrix1:");
