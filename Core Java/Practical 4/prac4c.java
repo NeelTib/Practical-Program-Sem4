@@ -1,6 +1,6 @@
 // Write a program in Java to demonstrate the implementation of abstract class
 
-abstract class pract4c {
+abstract class prac4c {
     String color = "red";
 
     public String getColor() {
@@ -8,7 +8,7 @@ abstract class pract4c {
     }
 }
 
-class SUV extends pract4c {
+class SUV extends prac4c {
     double cc;
 
     SUV() {
