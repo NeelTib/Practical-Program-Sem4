@@ -15,7 +15,7 @@ void main()
    switch(choice){
    case 1:
       int tx=50,ty=50;
-      
+
       cout<<"\nBefore Translation\n";
       line(100,100,200,100);
       line(100,100,100,200);
@@ -53,7 +53,7 @@ void main()
 
       line(150+tx,150+ty,150+tx,250+ty);
       line(250+tx,150+ty,250+tx,250+ty);
-      line(150+tx,250+ty,260+tx,250+ty);
+      line(150+tx,250+ty,250+tx,250+ty);
 
       line(100+tx,100+ty,150+tx,150+ty);
       line(100+tx,200+ty,150+tx,250+ty);
@@ -61,10 +61,9 @@ void main()
       line(200+tx,200+ty,250+tx,250+ty);
 
       break;
-   
+
    case 2:
-      int sx=10,sy=10;
-      
+      float sx=1.5,sy=1.5;
       cout<<"\nBefore Scaling\n";
       line(100,100,200,100);
       line(100,100,100,200);
@@ -86,9 +85,8 @@ void main()
       line(200,100,250,150);
       line(200,200,250,250);
 
-      cout<<"\nAfter Scaling\n";
-
       setcolor(3);
+      cout<<"\nAfter Scaling\n";
       line(100*sx,100*sy,200*sx,100*sy);
       line(100*sx,100*sy,100*sx,200*sy);
       line(200*sx,100*sy,200*sx,200*sy);
