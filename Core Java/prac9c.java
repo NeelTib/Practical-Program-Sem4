@@ -1,4 +1,4 @@
-public class prac9a {
+public class prac9c {
     public static void main(String[] args) {
         try {
             int a = 10, b = 0, c;
