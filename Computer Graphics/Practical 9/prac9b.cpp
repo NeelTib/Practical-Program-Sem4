@@ -1,3 +1,4 @@
+// Write a C++ program to draw animation of Smiley face.
 #include <iostream.h>
 #include <dos.h>
 #include <conio.h>
