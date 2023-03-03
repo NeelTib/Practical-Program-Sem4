@@ -1,3 +1,4 @@
+// Write a java program to implement exception handling. 
 public class prac9c {
     public static void main(String[] args) {
         try {

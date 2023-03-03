@@ -1,3 +1,5 @@
+/*Implement a Java function that calculates the sum of digits for a given char array consisting of the digits 0 to 9. The function should return the digit sum as a long
+value. */
 class prac3b {
     public static void main(String args[]) {
         long sum = calc();

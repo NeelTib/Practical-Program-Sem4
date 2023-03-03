@@ -1,4 +1,3 @@
-
 // WAP to reverse a string.
 import java.util.Scanner;
 

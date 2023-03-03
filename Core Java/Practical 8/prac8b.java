@@ -1,3 +1,4 @@
+// Write a java program to copy the contents from one file to other file.
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

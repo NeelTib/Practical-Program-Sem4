@@ -1,3 +1,4 @@
+// Write a java program for multiplying two matrices and print the product for the same. 
 import java.util.Scanner;
 
 public class prac6b {

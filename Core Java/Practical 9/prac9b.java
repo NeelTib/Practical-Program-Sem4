@@ -1,3 +1,4 @@
+// Design an AWT program to perform various string operations like reverse string, string concatenation etc.
 import java.awt.*;
 import java.awt.event.*;
 

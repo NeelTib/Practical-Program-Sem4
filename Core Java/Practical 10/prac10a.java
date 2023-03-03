@@ -1,3 +1,4 @@
+// Design an AWT application that contains the interface to add student information and display the same. 
 import java.awt.*;
 import java.awt.event.*;
 

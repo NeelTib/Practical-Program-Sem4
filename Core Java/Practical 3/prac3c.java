@@ -1,3 +1,4 @@
+// Find the smallest and largest element from the array
 import java.util.Scanner;
 
 class prac3c {

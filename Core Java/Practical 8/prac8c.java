@@ -1,3 +1,4 @@
+// Write a java program to read the student data from user and store it in the file. 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
